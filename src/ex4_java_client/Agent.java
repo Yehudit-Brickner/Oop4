@@ -1,9 +1,9 @@
 package ex4_java_client;
 
 public class Agent {
-    int id;
-    Geo g;
-    double speed;
+    public int id;
+    public Geo g;
+    public double speed;
 
     public Agent(int id, Geo g, double s){
         this.id=id;
